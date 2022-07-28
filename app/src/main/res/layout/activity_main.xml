@@ -19,15 +19,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="성명"/>
+            android:text="제목"/>
         <EditText
             android:id="@+id/edit_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
-
-
     <RadioGroup
         android:id="@+id/rg"
         android:layout_width="wrap_content"
@@ -41,24 +39,16 @@
             android:id="@+id/rd_third"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="third"/>
+            android:text="thirdactivity"/>
     </RadioGroup>
 
     <Button
         android:id="@+id/btn_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="새로운 Activity 시작"
+        android:text="결과"
         />
-    <TextView
-        android:id="@+id/text_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="제목"/>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
